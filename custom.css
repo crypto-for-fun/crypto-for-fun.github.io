@@ -1,0 +1,42 @@
+﻿
+:root {
+  /* Основной шрифт для всего текста */
+  --font-family: 'Open Sans', 'Segoe UI', Tahoma, sans-serif;
+  
+  /* Размер основного шрифта */
+  --base-font-size: 24px;
+
+}
+
+
+/* Основной текст */
+.markdown-section {
+  font-size: 24px !important;
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+
+/* Заголовки (чтобы не отставали) */
+.markdown-section h1 { font-size: 2em !important; }
+.markdown-section h2 { font-size: 1.6em !important; }
+
+
+/* Шрифт и размер текста в ссылках боковой панели */
+.sidebar-nav a {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px; /* Ваш размер */
+}
+
+/* Шрифт заголовка (названия сайта) вверху панели */
+.sidebar .app-name {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+}
+
+
+/* Заголовки верхнего уровня (главные пункты меню) */
+.sidebar .sidebar-nav > ul > li {
+  font-family: 'Open Sans', sans-serif !important;
+  font-size: 20px !important;
+  /*font-weight: 700 !important; /* Сделать жирным, чтобы отличать от подпунктов */
+}
